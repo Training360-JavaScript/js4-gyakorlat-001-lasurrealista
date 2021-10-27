@@ -4,7 +4,7 @@ const converterPromise = (inputArray) => {
             const newArray = inputArray.map(item => item.toUpperCase());
             //resolve(newArray);
         } catch {
-            reject('Error: Not all elements are string type!');
+            //reject('Error: Not all elements are string type!');
         }
     });
 };

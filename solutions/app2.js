@@ -10,7 +10,7 @@ const sorterPromise = (arr) => {
                 reject('Error: Something went wrong with sorting!');
             }
         }
-        sortedArray === null
+        //sortedArray === null
             ? reject('Error: Not all elements are string type!')
             : resolve(sortedArray)
     });
