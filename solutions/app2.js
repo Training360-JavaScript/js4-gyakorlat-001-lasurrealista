@@ -4,7 +4,7 @@ const sorterPromise = (arr) => {
         let sortedArray = null;
         if (everyElementIsAString) {
             try {
-                sortedArray = [...arr].sort();
+                //sortedArray = [...arr].sort();
             }
             catch (err) {
                 reject('Error: Something went wrong with sorting!');
