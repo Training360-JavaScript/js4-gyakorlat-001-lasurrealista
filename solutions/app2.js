@@ -4,13 +4,13 @@ const sorterPromise = (arr) => {
         let sortedArray = null;
         if (everyElementIsAString) {
             try {
-                sortedArray = [...arr].sort();
+                //sortedArray = [...arr].sort();
             }
             catch (err) {
                 reject('Error: Something went wrong with sorting!');
             }
         }
-        sortedArray === null
+        //sortedArray === null
             ? reject('Error: Not all elements are string type!')
             : resolve(sortedArray)
     });
